@@ -77,7 +77,7 @@ st.markdown("""
         padding: 2rem;
         margin: auto;
         position: relative;
-        top: 20%;
+        top: 6%;
         transform: translateY(-5%);
     }
     .stTextInput>div>div>input, .stSelectbox>div>div>select, .stSlider>div>div>div>div {
