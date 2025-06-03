@@ -77,8 +77,8 @@ st.markdown("""
         padding: 2rem;
         margin: auto;
         position: relative;
-        top: 30%;
-        transform: translateY(-50%);
+        top: 40%;
+        transform: translateY(-40%);
     }
     .stTextInput>div>div>input, .stSelectbox>div>div>select, .stSlider>div>div>div>div {
         background-color: rgba(255,255,255,0.9) !important;
@@ -106,10 +106,7 @@ st.markdown("""
         margin-left: auto !important;
         margin-right: auto !important;
     }
-    html, body, .stApp {
-    height: 50%;
-    overflow-y: auto;
-    }
+    
 </style>
 """, unsafe_allow_html=True)
 
