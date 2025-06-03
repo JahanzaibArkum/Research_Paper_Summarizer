@@ -1,9 +1,8 @@
-
 streamlit
 requests
 pypdf2
 transformers
 torch
 accelerate
-sentencepiece
+sentencepiece==0.1.99
 python-dotenv
