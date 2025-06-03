@@ -78,7 +78,7 @@ st.markdown("""
         margin: auto;
         position: relative;
         top: 1%;
-        transform: translateY(-5%);
+        transform: translateY(-9%);
     }
     .stTextInput>div>div>input, .stSelectbox>div>div>select, .stSlider>div>div>div>div {
         background-color: rgba(255,255,255,0.9) !important;
