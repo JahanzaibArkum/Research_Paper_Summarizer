@@ -107,7 +107,7 @@ st.markdown("""
         margin-right: auto !important;
     }
     html, body, .stApp {
-    height: 100%;
+    height: 50%;
     overflow-y: auto;
     }
 </style>
