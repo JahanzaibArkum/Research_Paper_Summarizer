@@ -106,6 +106,10 @@ st.markdown("""
         margin-left: auto !important;
         margin-right: auto !important;
     }
+    html, body, .stApp {
+    height: 100%;
+    overflow-y: auto;
+    }
 </style>
 """, unsafe_allow_html=True)
 
