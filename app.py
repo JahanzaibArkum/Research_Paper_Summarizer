@@ -77,7 +77,7 @@ st.markdown("""
         padding: 2rem;
         margin: auto;
         position: relative;
-        top: 6%;
+        top: 1%;
         transform: translateY(-5%);
     }
     .stTextInput>div>div>input, .stSelectbox>div>div>select, .stSlider>div>div>div>div {
@@ -155,4 +155,4 @@ if st.button("Generate Summary", use_container_width=True):
 
 # Footer
 st.markdown("---")
-st.markdown("Built with ♥ using Llama3 70B via Groq API")
+
