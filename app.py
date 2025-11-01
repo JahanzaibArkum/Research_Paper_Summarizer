@@ -19,8 +19,7 @@ from dotenv import load_dotenv
 load_dotenv()
 API_KEY = os.getenv("GROQ_API_KEY")
 GROQ_URL = "https://api.groq.com/openai/v1/chat/completions"
-MODEL = "llama3-70b-8192"
-
+MODEL = "llama-3.3-70b-versatile"
 # Load template
 with open('template.json') as f:
     TEMPLATE = json.load(f)
@@ -155,4 +154,5 @@ if st.button("Generate Summary", use_container_width=True):
 
 # Footer
 st.markdown("---")
+
 
